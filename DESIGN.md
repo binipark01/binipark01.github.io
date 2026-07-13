@@ -22,7 +22,7 @@ Quiet, credible, and technically literate. The page should feel like a concise p
 | Muted text | `--text-muted` | `#666666` | Metadata |
 | Rule | `--rule` | `#ebebeb` | Dividers and grid lines |
 | Focus/link | `--accent` | `#0068d7` | Links and focus states only |
-| Focus halo | `--focus-halo` | `rgba(0, 114, 245, 0.22)` | Keyboard focus |
+| Focus halo | `--focus-halo` | `rgba(0, 104, 215, 0.22)` | Keyboard focus |
 | Ring | `--ring` | `rgba(0, 0, 0, 0.08)` | Shadow-as-border |
 | Soft shadow | `--shadow-soft` | `rgba(0, 0, 0, 0.04)` | Quiet depth |
 
