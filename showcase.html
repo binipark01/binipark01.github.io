@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stock Agent Component Showcase</title>
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      .showcase { width: min(calc(100% - 2rem), 64rem); margin: 0 auto; padding: var(--space-16) 0; }
+      .showcase section { margin-top: var(--space-12); padding-top: var(--space-8); border-top: 0.0625rem solid var(--rule); }
+      .showcase-row { display: flex; flex-wrap: wrap; gap: var(--space-4); align-items: center; }
+      .showcase .capability { max-width: 34rem; }
+      .showcase h1 { font-size: 3rem; }
+    </style>
+  </head>
+  <body>
+    <main class="showcase">
+      <h1>Component showcase</h1>
+      <p class="summary">Primitive states for responsive and keyboard verification.</p>
+      <section aria-labelledby="actions-title">
+        <h2 id="actions-title">Action links</h2>
+        <div class="showcase-row">
+          <a class="button primary" href="#actions-title">Primary action</a>
+          <a class="button secondary" href="#actions-title">Secondary action</a>
+        </div>
+      </section>
+      <section aria-labelledby="status-title">
+        <h2 id="status-title">Status badge</h2>
+        <p class="status"><span aria-hidden="true"></span>Research project · Non-commercial</p>
+      </section>
+      <section aria-labelledby="capability-title">
+        <h2 id="capability-title">Capability row</h2>
+        <article class="capability">
+          <div class="icon-tile" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 19V12M12 19V5M19 19V9"/></svg></div>
+          <div><h2>Market analysis</h2><p>Technical indicators, trend context, and multi-timeframe research.</p></div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
